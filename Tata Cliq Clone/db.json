@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": "caa5",
+      "email": "devsojitra02@gmail.com",
+      "password": "123456",
+      "username": "devpatel9"
+    },
+    {
+      "id": "60e2",
+      "email": "priyashumavani@gmail.com",
+      "password": "456789",
+      "username": "priyanshu"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "img": "https://img.tatacliq.com/images/i18//437Wx649H/MP000000022273457_437Wx649H_202406212223451.jpeg",
+      "name": "Titan",
+      "description": "Titan Neo Splash NS1805QM01 Analog Watch for Men",
+      "price": 7995,
+      "cutPrice": 10999,
+      "rating": "4.7★  (3)"
+    },
+    {
+      "id": "2",
+      "img": "https://img.tatacliq.com/images/i5/437Wx649H/MP000000005807138_437Wx649H_20191104200956.jpeg",
+      "name": "Fossil",
+      "description": "Fossil FS551 The Minimalist Analog Watch for Men",
+      "price": 5996,
+      "cutPrice": 9995,
+      "rating": "4.8★  (10)"
+    },
+    {
+      "id": "3",
+      "img": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017177224_437Wx649H_202304122100191.jpeg",
+      "name": "Timex",
+      "description": "Timex Lab TW2T80700U9 Analog Watch for Men",
+      "price": 8995,
+      "cutPrice": 9995,
+      "rating": "5★  (3)"
+    },
+    {
+      "id": "4",
+      "img": "https://img.tatacliq.com/images/i18//437Wx649H/MP000000009727001_437Wx649H_202405242216591.jpeg",
+      "name": "Tissot",
+      "description": "TISSOT SEASTAR 1000 CHRONOGRAPH T1204171105101",
+      "price": 58000,
+      "cutPrice": 62000,
+      "rating": "5★  (8)"
+    },
+    {
+      "id": "5",
+      "img": "https://img.tatacliq.com/images/i16//437Wx649H/MP000000014383665_437Wx649H_202403191909081.jpeg",
+      "name": "Armani Exchange",
+      "description": "Armani Exchange Black Watch AX2429",
+      "price": 17495,
+      "cutPrice": 21999,
+      "rating": "2.7★  (3)"
+    },
+    {
+      "id": "6",
+      "img": "https://img.tatacliq.com/images/i16//437Wx649H/MP000000017926329_437Wx649H_202403181902251.jpeg",
+      "name": "Tommy Hilfiger",
+      "description": "Tommy Hilfiger NETH1791778 Analog Watch for Men",
+      "price": 15250,
+      "cutPrice": 20000,
+      "rating": "5★ (4)"
+    },
+    {
+      "id": "7",
+      "img": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012926956_437Wx649H_202204261027361.jpeg",
+      "name": "Seiko",
+      "description": "Seiko SRPD63K1 5 Sports Watch for Men",
+      "price": 26855,
+      "cutPrice": 29995,
+      "rating": "5★  (2)"
+    },
+    {
+      "id": "8",
+      "img": "https://img.tatacliq.com/images/i17//437Wx649H/MP000000022273884_437Wx649H_202405140104021.jpeg",
+      "name": "Titan",
+      "description": "Titan Maritime NS1830KL02 Analog Watch for Men",
+      "price": 16815,
+      "cutPrice": 20999,
+      "rating": "4.5★  (4)"
+    },
+    {
+      "id": "9",
+      "img": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014383672_437Wx649H_202209090703151.jpeg",
+      "name": "Fossil",
+      "description": "Fossil BQ2494 Bannon Analog Watch for Men",
+      "price": 10147,
+      "cutPrice": 14495,
+      "rating": "4.8★  (5)"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "img": "https://img.tatacliq.com/images/i18//437Wx649H/MP000000022273457_437Wx649H_202406212223451.jpeg",
+      "name": "Titan",
+      "description": "Titan Neo Splash NS1805QM01 Analog Watch for Men",
+      "price": 7995,
+      "cutPrice": 10999,
+      "rating": "4.7★  (3)"
+    },
+    {
+      "id": "3",
+      "img": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017177224_437Wx649H_202304122100191.jpeg",
+      "name": "Timex",
+      "description": "Timex Lab TW2T80700U9 Analog Watch for Men",
+      "price": 8995,
+      "cutPrice": 9995,
+      "rating": "5★  (3)"
+    },
+    {
+      "id": "1",
+      "img": "https://img.tatacliq.com/images/i18//437Wx649H/MP000000022273457_437Wx649H_202406212223451.jpeg",
+      "name": "Titan",
+      "description": "Titan Neo Splash NS1805QM01 Analog Watch for Men",
+      "price": 7995,
+      "cutPrice": 10999,
+      "rating": "4.7★  (3)"
+    }
+  ]
+}

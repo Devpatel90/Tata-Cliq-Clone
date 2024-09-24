@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <div class="form-box login-box">
+                <h2>Login</h2>
+                <form id="formd">
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="password" required>
+                        <label>Password</label>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="toggle-link">
+                        <p>Don't have an account? <a href="signup.html" onclick="toggleForm()">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleForm() {
+            document.querySelector('.form-container').classList.toggle('active');
+        }
+    </script>
+</body>
+<script src="login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

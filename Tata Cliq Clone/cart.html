@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="image/logo.png" alt="Tata Logo" class="logo mr-2" id="logo">
+            </a>
+            
+            <!-- Spacer to move the profile icon to the right -->
+            <div class="ml-auto d-flex align-items-center">
+                <!-- Profile Icon -->
+                <a href="#" class="nav-link text-white">
+                    <i class="fas fa-user-circle fa-lg"></i>
+                </a>
+                <a href="#" class="nav-link text-white dropdown-toggle"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="ba">
+
+    <div class="container my-5">
+        <div class="row">
+            <!-- Bag Section -->
+            <div class="col-lg-8">
+                <h2 class="mb-4">My Bag</h2>
+                <div class="alert alert-info d-flex align-items-center">
+                    <i class="fas fa-truck mr-2"></i>
+                    <p class="mb-0">Some items in your order are eligible for <strong>FREE Shipping!</strong> Check cart summary for the final amount.</p>
+                </div>
+
+                <!-- First Product Card -->
+                <div class="card shadow-sm mb-3">
+                    <div class="row no-gutters" id="data1">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary Section -->
+            <div class="col-lg-4 mt-5">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Deliver To</h5>
+                        <p>110001, Delhi</p>
+                        <button class="btn btn-outline-secondary"><i class="fas fa-edit"></i> Change</button>
+
+                        <hr>
+
+                        <h5 class="card-title">Order Summary</h5>
+                        <div class="d-flex justify-content-between">
+                            <p>Bag Total</p>
+                            <p>₹17990.00</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Processing Fee</p>
+                            <p><del>₹99.00</del> <strong>₹29.00</strong></p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Bag Subtotal</p>
+                            <p>₹18019.00</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Product Discount(s)</p>
+                            <p>- ₹3999.00</p>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <h4>Total                   ₹</h4>
+                            <h4 id="to"></h4>
+                        </div>
+                        <a href="index.html"><button class="btn btn-danger btn-block mt-3" >Checkout</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="cart.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
